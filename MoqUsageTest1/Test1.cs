@@ -12,8 +12,8 @@ namespace MoqUsageTest1
         public static void RunTest()
         {
             Console.WriteLine("Test");
-            //The line below gives error "The name 'Mock' does not exist in the current context"
-            //var fooMock = Mock.Of<IFoo>(); 
+            //This works now.
+            var fooMock = Mock.Of<IFoo>(); 
         }
 
     }
